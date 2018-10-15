@@ -1,0 +1,104 @@
+body{
+    font-family: 'VT323', monospace;
+   background-color:#050507;
+   text-align: left;
+   background-image: url(albumart.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: contain;
+   background-size: 70%;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+div.index{
+    text-align: left;
+    margin-top: 30vh;
+    margin-left: 5vw;
+    margin-right: 60vw;
+    color: #CBDCF9;
+}
+
+div.description{
+    text-align: left;
+    margin-top: 1vh;
+    margin-left: 5vw;
+    margin-right: 60vw;
+    color: #CBDCF9;
+}
+
+div.descriptiontitle{
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 60vw;
+    color: #CBDCF9;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div.buttons{
+    position: fixed;
+    margin-left: 79vw;
+    margin-right: 1vw;
+}
+
+div.buttons a{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    color: #CBDCF9;
+}
+
+div.startbutt{
+    text-align: center;
+    margin-top: 8vh;
+    margin-left: 5vw;
+    margin-right: 60vw;
+    color: #CBDCF9;  
+}
+
+div.startbutt a{
+    font-size: 19px;
+    font-weight: bold;
+    color: #CBDCF9;
+}
+
+div.lyrictitle{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8vh;
+    margin-left: 5vw;
+    margin-right: 60vw;
+    color: #CBDCF9;
+}
+
+div.lyrics{
+    text-align: left;
+    margin-top: 8vh;
+    margin-left: 10vw;
+    margin-right: 65vw;
+    margin-bottom: 85vh;
+    color: #CBDCF9;
+}
+
+div.track{
+    margin-left: 0.9vw;
+    margin-top: 3vh;
+    width: 100%;
+    max-width: 768px;
+}
+
+div.tack iframe {
+    width: 100%;
+}
+
+div.index a{
+    font-size: 20px;
+    color:#CBDCF9
+}
