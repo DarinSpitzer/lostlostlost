@@ -44,8 +44,9 @@ div.descriptiontitle{
 
 div.buttons{
     position: fixed;
-    margin-left: 79vw;
-    margin-right: 1vw;
+    width: 100%;
+    text-align:right;
+    right: 1.5vw;
 }
 
 div.buttons a{
@@ -95,7 +96,7 @@ div.track{
     max-width: 768px;
 }
 
-div.tack iframe {
+div.track iframe {
     width: 100%;
 }
 
@@ -105,8 +106,9 @@ div.index a{
 }
 
 @media only screen and (max-width: 768px) {
+
     body{
-        background-attachment: fixed;
+        background-attachment: unset;
         background-repeat: no-repeat;
         background-position: top;
         background-size: contain;
@@ -114,13 +116,70 @@ div.index a{
         margin-right: 0;
     }
 
-    .lyrics{
-        margin-left:10vw;
-        margin-right:10vw;
+    div.lyrics{
+        margin-top: 3vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-bottom: 85vh;
     }
 
-    body > * {
-        margin-right: 0px !important;
-        text-align:center;
+    div.index{
+        text-align: left;
+        margin-top: 30vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    div.description{
+        margin-right: 5vw;
+        margin-left: 5vw;
+
+    }
+    
+    div.descriptiontitle{
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    div.buttons{
+        position: static;
+        text-align: center;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        right:0;
+        margin-top:27vh
+    }
+    
+    div.buttons a{
+        text-align: center;
+        color: #CBDCF9;
+    }
+    
+    div.startbutt{
+        text-align: center;
+        margin-right: 1vw;
+        margin-left: 1vw;
+        margin-top: 5vh;
+    } 
+    
+    div.lyrictitle{
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 8vh
+    }
+    
+    div.track{
+        margin-left: 1vw;
+        margin-right: 3vw;
+        width: 94%;
+        max-width: 768px;
+        margin-top: 1vh;
+    }
+    
+    div.track iframe {
+    margin-left: 1vw;
+    margin-right: 1vw;
     }
 }
